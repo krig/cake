@@ -1,0 +1,52 @@
+cake
+------
+
+TODO
+
+* clean
+
+* install?
+
+* handle data
+
+* --pack -> project.tar.bz2
+
+
+===
+
+old!
+
+
+Idea for plugin to gedit / for the project thingie:
+
+Generate a tags file for the project. Make sure that the
+autocompletion tool knows the tag file (add metainfo to autocompletion)
+
+- Generate two separate tags files. One for external includes, one for
+the actual project itself (which is kept updated automatically.. the
+global one can be manual)
+
+- tooltip info on mouse hover
+
+
+-- TODO - changes!
+
+* header file parsing
+
+cc -o f1.o -c f1.c
+cc -o f2.o -c f2.c
+cc -o f3.o -c f3.c
+ar rc libfoo.a f1.o f2.o f3.o
+ranlib libfoo.a
+
+cc -o f1.os -c f1.c
+cc -o f2.os -c f2.c
+cc -o f3.os -c f3.c
+cc -o libfoo.so -shared f1.os f2.os f3.os
+
+
+
+New design:
+
+
+
